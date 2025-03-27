@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Fdnf2BXX7p89nC+9571btebg/wHZCBf2IjMmweZvwAfu8fQPHHjWCzeZeoFW4kGW/D4onFJ3rl9O9y/OB5zwA==",
+  "dgSpecHash": "88dpbRcBH4u+d+0t28M365b0ESkEylOt93I3bPViyXwZOC/CIc5/rwEuUQ2Z5sf1MxS1WUmHHohBQK/e0GH8kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Projeto_Dergin7\\Topicos\\carro\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Topicos\\carro\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GABRIELBARBOZADERGIN\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\GABRIELBARBOZADERGIN\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

@@ -3203,11 +3203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Projeto_Dergin7\\Topicos\\carro\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Topicos\\carro\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Projeto_Dergin7\\Topicos\\carro\\API\\API.csproj",
+      "projectPath": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Topicos\\carro\\API\\API.csproj",
       "packagesPath": "C:\\Users\\GABRIELBARBOZADERGIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Projeto_Dergin7\\Topicos\\carro\\API\\obj\\",
+      "outputPath": "C:\\Users\\GABRIELBARBOZADERGIN\\Documents\\Topicos\\carro\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\GABRIELBARBOZADERGIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
