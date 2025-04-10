@@ -4,10 +4,36 @@ using API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+using  Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDataContext>();
 
+builder.Services.AddEndpointsApiExplorer();
+/*para fazer a documentação*/
+builder.Services.AddSwaggerGen(options =>
+    {
+       
+        options.SwaggerDoc("v1", new OpenApiInfo
+        {
+            Title = "Swagger Documentação API Carros",
+            Description = "Endpoint para gerenciamento de cadastro.",
+            Contact = new OpenApiContact() {
+                Name = "Gabriel Barboza Dergint",
+                Email = "barbozadergint@gmail.com"
+            },
+            License = new OpenApiLicense(){
+                Name = "MIT License",
+                Url =  new Uri("https://opensource.org/license/MIT")
+            }
+        });
+    }
+);
+
 var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 /*Adcionando objetos com suas informações neste caso 2 Objetos Carro com os nomes "Fusca" e "Ferrari" respectivamente para o id "1" e "2"
 List<Carro> carros = [
